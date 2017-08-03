@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    padding-right: 50px;
+}
+
+li{
+    list-style-type: none;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.footer{
+    border-top: 2px solid white;
+    width: 80%;
+    margin: auto;
+}
+
+.contato{
+    display: flex;
+}
+
+.contato div{
+    width: 50%;
+    font-weight: bold;
+}
+
+.sitemap{
+    margin-top: 30px;
+    display: flex;
+}
+
+@media(max-width: 600px){
+    .contato{
+        display: block;
+    }
+
+    .contato div{
+        width: 100%;
+        font-weight: bold;
+    }
+
+    .sitemap{
+        flex-wrap: wrap;
+    }
+
+    .sitemap div{
+        width: 50%;
+        display: block;
+    }
+
+    ul{
+        padding: 0;
+    }
+}
